@@ -9,13 +9,13 @@
 
 csfml = -lcsfml-graphics -lcsfml-system -lcsfml-audio -lcsfml-window
 
-NAME = my_paint
+NAME = my_hunter
 
-all: my_paint
+all: my_hunter
 
 my_paint:
-	gcc *.c -o my_paint -I../includes -W -Wall -Wextra $(csfml)
-	chmod 755 my_paint
+	gcc *.c -o my_hunter -I../includes -W -Wall -Wextra $(csfml)
+	chmod 755 my_hunter
 
 clean:
 	rm -f $(NAME)
