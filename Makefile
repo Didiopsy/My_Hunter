@@ -14,7 +14,7 @@ NAME = my_hunter
 all: my_hunter
 
 my_hunter:
-	gcc *.c -o my_hunter -I../includes -W -Wall -Wextra $(csfml)
+	gcc *.c -o my_hunter -W -Wall -Wextra $(csfml)
 	chmod 755 my_hunter
 
 clean:
