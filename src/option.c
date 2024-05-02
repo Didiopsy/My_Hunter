@@ -4,8 +4,7 @@
 ** File description:
 ** main.c
 */
-
-#include "my_hunter.h"
+#include "../my_hunter.h"
 
 void init_option(struct my_hunter *my_hunter)
 {

@@ -4,8 +4,7 @@
 ** File description:
 ** main.c
 */
-
-#include "my_hunter.h"
+#include "../my_hunter.h"
 
 int main(void)
 {

@@ -4,7 +4,7 @@
 ** File description:
 ** main.c
 */
-#include "my_hunter.h"
+#include "../my_hunter.h"
 
 void click_perso(struct my_hunter *my_hunter)
 {
