@@ -67,7 +67,7 @@ void fenetre(struct my_hunter *my_hunter)
     init_menu(my_hunter);
     init_menu2(my_hunter);
     gestion_sprite(my_hunter);
-    my_hunter->windows = SRWC(my_hunter->mode, "SFMLwindow", ECR, NULL);
+    my_hunter->windows = SRWC(my_hunter->mode, "My_hunter", ECR, NULL);
     sfRenderWindow_setFramerateLimit(my_hunter->windows, 30);
     while (sfRenderWindow_isOpen(my_hunter->windows)) {
         close_event(my_hunter);
